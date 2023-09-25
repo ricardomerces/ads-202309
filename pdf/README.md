@@ -1,0 +1,1 @@
+docker run --rm -v .:/pdf  -it pdf teste1.pdf teste2.pdf saida.pdf
