@@ -1,0 +1,11 @@
+# Apenmas referencia (não faz parte do compose)
+# docker run --rm --name web -d -p 8080:80 nginx:alpine
+
+version: "3"
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - target: 80
+        published: 8080
+    restart: always
