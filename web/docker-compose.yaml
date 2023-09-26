@@ -19,7 +19,7 @@ services:
       - web
 
   web-dev:
-    image: nginx:alpine
+    build: ./app
     ports:
       - target: 80
         published: 8082
